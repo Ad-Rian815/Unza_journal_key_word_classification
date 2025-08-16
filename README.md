@@ -28,4 +28,5 @@ From a real-world perspective, success means:
 1.4 Project Success Criteria
 - The model should achieve at least **80% accuracy** on the test dataset.
 - The classification results must be **interpretable and consistent** across different domains.
+- The classification outputs are clear and be easily explained to non-technical stakeholders.
 - The system should reduce the time required to organize keywords compared to manual methods.
