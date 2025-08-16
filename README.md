@@ -12,10 +12,15 @@ From a real-world perspective, success means:
 - Supporting administrators in analyzing research output trends at UNZA.
 
 1.3 Data Mining Goals
-To achieve the above objectives, we will:
-- Build a **classification model** that categorizes article keywords into predefined classes.
-- Apply **text preprocessing techniques** (tokenization, stop-word removal, TF-IDF).
-- Experiment with **classification algorithms** such as Naïve Bayes, SVM, and Decision Trees.
+  The technical approach to achieving these objectives is structured into the following data mining goals:
+  > Classification Model Development: A classification model will be built to categorize article keywords into predefined classes.
+  > Text Preprocessing: The raw text data will be prepared for machine learning using standard preprocessing techniques, including tokenization, stop-word removal, and TF-IDF (Term          Frequency-Inverse Document Frequency) for vectorization.
+  > Algorithm Experimentation: The performance of several classification algorithms will be evaluated to determine the most effective one. The algorithms to be tested include Naïve          Bayes,   Support Vector Machines (SVM), and Decision Trees.
+  
+  To wrap things up, the main goal of this project is to build a machine learning model that can automatically classify article keywords. I've broken the work down into two key parts.     First, I'll focus on data preparation by cleaning the text using tokenization and stop-word removal, and then I'll use TF-IDF to turn everything into numbers for the models to work      with.
+  For the second part, I'll experiment with different algorithms like Naïve Bayes, SVM, and Decision Trees. By testing them with metrics like precision and F1-score, I'll figure out       which one is the most accurate. I'm hoping that by following these steps, I can successfully create a model that not only classifies keywords effectively but also shows I've got a       solid grasp of the data mining process.
+
+
 
 1.4 Project Success Criteria
 - The model should achieve at least **80% accuracy** on the test dataset.
