@@ -1,7 +1,7 @@
 # 1. Business Understanding
 
 ## Problem Statement
-Currently, keywords associated with research articles in UNZA journals are not automatically organized or classified. This makes it difficult for researchers, students, and librarians to quickly identify relevant articles or track research trends. A manual process is time-consuming, inconsistent, and limits the usefulness of the institutional repository.
+Currently, keywords associated with research articles in UNZA journals are not automatically organized or classified. This makes it difficult for researchers, students, and librarians to quickly identify relevant articles or track research trends. A manual process is time-consuming, inconsistent, and limits the usefulness of the institutional repository. Navigation of journals will be a piece of cake!
 
 ## Business Objectives
 The goal of this project is to build a system that can automatically classify keywords from articles into meaningful categories (e.g., *Agriculture, Medicine, Computer Science*).  
@@ -21,7 +21,3 @@ To achieve the above objectives, we will:
 - The model should achieve at least **80% accuracy** on the test dataset.
 - The classification results must be **interpretable and consistent** across different domains.
 - The system should reduce the time required to organize keywords compared to manual methods.
-
-
-## GROUP MEMBERS 
-1. ADRIAN PHIRI 2021397963
