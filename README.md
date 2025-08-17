@@ -24,9 +24,20 @@ From a real-world perspective, success means:
   
   For the second part, we'll experiment with different algorithms like Naïve Bayes, SVM, and Decision Trees. By testing them with metrics like precision and F1-score, then we'll           figure out which one is the most accurate. We're hoping that by following these steps, we can successfully create a model that not only classifies keywords effectively but also          shows we've got a solid grasp of the data mining process.
 
+  Summary: The workflow involves two main stages. 
+  First, text preprocessing to clean and transform raw keywords into numerical representations. 
+  Second, experimentation with multiple algorithms to identify the most accurate and robust classifier.
+  
   1.3.1 Data Preparation
-       Before bilding the model, we will first make sure the data is clean (through tokenization) and then turining the words into numbers through Term Frequency-Inverse Document               Frequency (TF-IDF).
+    
 
+  Before building the model, the keyword data will be:
+
+  - Tokenized into smaller units.
+
+  - Cleaned by removing stop words and irrelevant terms.
+
+  - Converted into numerical representations using TF-IDF for input into machine learning models.
 
 
 1.4 Project Success Criteria
