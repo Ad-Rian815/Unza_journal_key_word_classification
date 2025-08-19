@@ -47,7 +47,13 @@ From a real-world perspective, success means:
 - The system should reduce the time required to organize keywords compared to manual methods.
 
 
-# Data understanding
+# 2. Data understanding
+
+We loaded the raw UNZA journals dataset into a Pandas DataFrame and performed an initial exploration:
+- Structural overview: `.head()`, `.info()`, `.describe()`, `.shape`
+- Quality checks: missing values, duplicates, unique counts
+- Distributions: histograms for numeric columnsand bar charts for categorical columns 
+- Frequency analysis (top 5 keywords)
 
 Initial Summary
 
