@@ -45,3 +45,25 @@ From a real-world perspective, success means:
 - The classification results must be **interpretable and consistent** across different domains.
 - The classification outputs are clear and be easily explained to non-technical stakeholders.
 - The system should reduce the time required to organize keywords compared to manual methods.
+
+
+# Data understanding
+
+Initial Summary
+
+The dataset contains **18 articles** with **6 columns**.
+ There are no missing values in the dataset.
+ Abstracts have an average length of about **275 words**.
+The most frequent authors are:
+- Brian Chanda Chiluba: 2 article(s)
+- Esther Munalula Nkandu: 2 article(s)
+- Munalula Muyangwa Munalula: 2 article(s)
+- Kris Kapp: 2 article(s)
+- Kweleka Mwanza: 1 article(s)
+The most common keywords are:
+- covid-19: 6 occurrence(s)
+- disability: 3 occurrence(s)
+- adolescent reproductive health: 2 occurrence(s)
+- anthrax: 1 occurrence(s)
+- bacillus anthracis: 1 occurrence(s)
+
