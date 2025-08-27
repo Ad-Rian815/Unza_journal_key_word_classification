@@ -73,3 +73,9 @@ The most common keywords are:
 - anthrax: 1 occurrence(s)
 - bacillus anthracis: 1 occurrence(s)
 
+# 3. Data Preparation 
+the data preparation phase involved the following steps:
+1. data cleaning- removed duplicates, handled missing data and standardized text.
+2. feature engineering- created derived features such as text statistics, author counts and keyword counts.
+3. data transformation- applied TD-IDF vectorization to abstracts and normalized numerical features.
+4. final data preparation- selected relevant features, concatenated them and exported them to a ready to use dataset.
