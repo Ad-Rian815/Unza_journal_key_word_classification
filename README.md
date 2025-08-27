@@ -79,3 +79,16 @@ the data preparation phase involved the following steps:
 2. feature engineering- created derived features such as text statistics, author counts and keyword counts.
 3. data transformation- applied TD-IDF vectorization to abstracts and normalized numerical features.
 4. final data preparation- selected relevant features, concatenated them and exported them to a ready to use dataset.
+==================================================
+DATA PREPARATION SUMMARY
+==================================================
+Original dataset shape: (6, 5)
+Prepared dataset shape: (6, 60)
+Number of new features created: 55
+
+Data preparation steps completed:
+1. ✅ Data cleaning (handled missing values, text cleaning)
+2. ✅ Feature engineering (created 10+ new features)
+3. ✅ Data transformation (encoding, normalization, vectorization)
+4. ✅ Final dataset preparation
+5. ✅ Data saved for modeling phase
